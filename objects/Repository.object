@@ -35,7 +35,7 @@
     <fields>
         <fullName>GithubId__c</fullName>
         <externalId>true</externalId>
-        <label>Stars</label>
+        <label>Github Id</label>
         <required>true</required>
         <type>Text</type>
         <unique>true</unique>
