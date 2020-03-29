@@ -18,6 +18,7 @@
 * classes/RepositorySchedule.cls
 * classes/RepositoryScheduleTest.cls
 * classes/RepositoryService.cls
+* classes/RepositoryServiceMock.cls
 * classes/RepositoryServiceTest.cls
 * classes/RepositoryTriggerTest.cls
 * objects/Repository.object
