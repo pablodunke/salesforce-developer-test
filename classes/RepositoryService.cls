@@ -19,6 +19,7 @@ public class RepositoryService
             Repository__c forRepository = new Repository__c();
             forRepository.GithubId__c = forItem.id;
             forRepository.Name = forItem.name;
+            forRepository.Owner__c = forItem.owner.login;
             forRepository.Forks__c = forItem.forks;
             forRepository.Stars__c = forItem.stargazers_count;
             listRepository.add(forRepository);
