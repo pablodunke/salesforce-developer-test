@@ -4,10 +4,10 @@
     <pluralLabel>Repositories</pluralLabel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Stars__c</fullName>
+        <fullName>Owner__c</fullName>
         <externalId>false</externalId>
-        <label>Stars</label>
-        <length>3</length>
+        <label>Owner</label>
+        <length>255</length>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
