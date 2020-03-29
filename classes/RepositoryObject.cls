@@ -2,9 +2,9 @@ public class RepositoryObject
 {
     public Decimal total_count;
     public Boolean incomplete_results;
-    public List<items> items;
+    public List<item> items;
     
-    public class items 
+    public class item
     {
         public String id;
         public String node_id;
