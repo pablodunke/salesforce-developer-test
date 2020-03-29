@@ -7,6 +7,7 @@
 ### Manual Steps
 
 * Allow the endpoint https://api.github.com in the Remote Site Settings
+* Enable and set the values for the Schedule used to retrieve the daily values for the repositories
 * Set the value of an user in the Custom Settings for the sharing configuration required in the trigger
 
 ### Classes, Triggers, Components, Objects and Unit Tests that were created to solve the problem
