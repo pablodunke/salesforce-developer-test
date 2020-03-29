@@ -5,6 +5,7 @@ private class RepositoryDAOTest
     {
         Repository__c repository = new Repository__c();
         repository.Name = 'Rep name';
+        repository.Owner__c = 'Dunke';
         repository.Forks__c = 6;
         repository.Stars__c = 2;
         repository.GithubId__c = '14008';
