@@ -25,3 +25,4 @@
 ### Possible Future Improvements
 
 * Handle insertions with Database.insert
+* Handle exceptions
