@@ -1,6 +1,6 @@
 public class RepositoryHandler 
 {
-	public static void shareRepository(List<Repository__c> pListRepository)
+    public static void shareRepository(List<Repository__c> pListRepository)
     {
         List<Repository__Share> listShare = new List<Repository__Share>();
        
