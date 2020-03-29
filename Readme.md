@@ -4,6 +4,10 @@
 
 ## Solution
 
+### Manual Steps
+
+* Allow the endpoint https://api.github.com in Setup/Security/Remote site settings
+
 ### Classes, Triggers, Components, Objects and Unit Tests that were created to solve the problem
 
 * aura/repository_grid
