@@ -11,7 +11,7 @@
 * classes/RepositoryObject.cls
 * classes/RepositorySchedule.cls
 * classes/RepositoryService.cls
-* object/Repository.object
+* objects/Repository.object
 * triggers/Repository.trigger
 
 ### Possible Future Improvements
