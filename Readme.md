@@ -4,7 +4,7 @@
 
 ## Solution
 
-### Classes, Triggers and Unit Tests that were created to solve the problem
+### Classes, Triggers, Components, Pages and Unit Tests that were created to solve the problem
 
 * ?
 
