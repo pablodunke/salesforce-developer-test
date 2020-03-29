@@ -10,20 +10,20 @@
             <div class="slds-page-header__col-title">
                 <div class="slds-media">
                     <div class="slds-media__figure">
-                        <span class="slds-icon_container slds-icon-standard-opportunity" title="opportunity">
+                        <span class="slds-icon_container slds-icon-standard-custom" title="repository">
                             <lightning:icon iconName="custom:custom18" size="medium" alternativeText="Indicates approval"/>
-                            <span class="slds-assistive-text">opportunity</span>
+                            <span class="slds-assistive-text">repository</span>
                         </span>
                     </div>
                     <div class="slds-media__body">
                         <div class="slds-page-header__name">
                             <div class="slds-page-header__name-title">
                                 <h1>
-                                    <span class="slds-page-header__title slds-truncate" title="Java - Most Starred Repositories">Java - Most Starred Repositories</span>
+                                    <span class="slds-page-header__title slds-truncate" title="Java">Java</span>
                                 </h1>
                             </div>
                         </div>
-                        <p class="slds-page-header__name-meta">Java • Most Starred Repositories</p>
+                        <p class="slds-page-header__name-meta">Most Starred Repositories</p>
                     </div>
                 </div>
             </div>
