@@ -31,6 +31,6 @@
 
 ### Possible Future Improvements
 
-* Handle insertions with Database.insert
-* Handle exceptions
 * Create a Named Credential to store the endpoint address for the Github site instead of hardcode it
+* Enable an option to change the language of the query, current the only language being retrieved is Java
+* A few code improvements, like exceptions and insertions with Database.insert
