@@ -3,7 +3,7 @@ private class RepositoryTriggerTest
 {
     static testMethod void testTrigger() 
     {        
-         test.startTest();
+         Test.startTest();
         
          Repository__c repository = new Repository__c();
          repository.Name = 'Rep name';
@@ -12,6 +12,6 @@ private class RepositoryTriggerTest
          repository.GithubId__c = '14009';
          insert repository;
  
-         test.stopTest();
+         Test.stopTest();
     }
 }
