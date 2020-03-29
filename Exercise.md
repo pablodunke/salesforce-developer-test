@@ -3,7 +3,8 @@
 ### Goal
 
 * To develop an application able to display a grid with the most starred repositories of a language in github.
-* The URL with the repos: [EXAMPLE](repositories.txt) [https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1]
+* The URL with the repos: https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1
+* A possible response: [EXAMPLE](repositories.txt) 
 
 ### Required
 
