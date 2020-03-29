@@ -3,12 +3,12 @@ private class RepositoryScheduleTest
 {
     static testMethod void testSchedule() 
     {        
-         test.startTest();
+         Test.startTest();
         
          RepositorySchedule rep = new RepositorySchedule();   
          String chron = '0 0 23 * * ?';        
-         system.schedule('Test Repository Schedule', chron, rep);
+         System.schedule('Test Repository Schedule', chron, rep);
         
-         test.stopTest();
+         Test.stopTest();
     }
 }
