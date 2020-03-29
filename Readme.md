@@ -19,6 +19,7 @@
 * classes/RepositoryScheduleTest.cls
 * classes/RepositoryService.cls
 * classes/RepositoryServiceTest.cls
+* classes/RepositoryTriggerTest.cls
 * objects/Repository.object
 * triggers/Repository.trigger
 
