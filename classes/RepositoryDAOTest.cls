@@ -12,7 +12,7 @@ private class RepositoryDAOTest
         
         Test.startTest();
         
-        List<Repository__c> listRepository = RepositoryDAO.getListRepository();
+        List<Repository__c> listRepository = RepositoryDAO.getListRepositoryOrderByStars();
         System.assertEquals(1, listRepository.size());
         
         Test.stopTest();
