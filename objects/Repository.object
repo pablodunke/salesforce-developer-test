@@ -12,7 +12,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-
     <fields>
         <fullName>Stars__c</fullName>
         <externalId>false</externalId>
