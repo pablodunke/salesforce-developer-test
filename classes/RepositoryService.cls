@@ -1,6 +1,6 @@
 public class RepositoryService 
 {
-    @future (callout=true)
+    @future (callout = true)
     public static void getRepositories()
     {    
         Http http = new Http();
