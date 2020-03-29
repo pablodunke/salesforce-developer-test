@@ -13,6 +13,8 @@
 ### Classes, Triggers, Components, Objects and Unit Tests that were created to solve the problem
 
 * aura/repository_grid
+* classes/RepositoryDAO.cls
+* classes/RepositoryDAOTest.cls
 * classes/RepositoryHandler.cls
 * classes/RepositoryHandlerTest.cls
 * classes/RepositoryObject.cls
