@@ -15,6 +15,8 @@
 * aura/repository_grid
 * classes/RepositoryDAO.cls
 * classes/RepositoryDAOTest.cls
+* classes/RepositoryGridController.cls
+* classes/RepositoryGridControllerTest.cls
 * classes/RepositoryHandler.cls
 * classes/RepositoryHandlerTest.cls
 * classes/RepositoryObject.cls
