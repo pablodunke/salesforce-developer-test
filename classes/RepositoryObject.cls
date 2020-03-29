@@ -13,6 +13,7 @@ public class RepositoryObject
         public owner owner; 
         public String html_url;
         public String description;
+        public Decimal stargazers_count;
         public Decimal forks;
         public Double score;
     }
