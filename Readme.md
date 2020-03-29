@@ -29,3 +29,4 @@
 
 * Handle insertions with Database.insert
 * Handle exceptions
+* Create a Named Credential to store the endpoint address for the Github site instead of hardcode it
