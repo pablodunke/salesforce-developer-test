@@ -20,7 +20,7 @@
                 for(let i in response)
                 {
                     console.log(response[i]);
-                    dataarray.push({"name": response[i].Name, "forks": response[i].Forks__c, "stars": response[i].Stars__c});
+                    dataarray.push({"name": response[i].Name, "owner": response[i].Owner__c, "forks": response[i].Forks__c, "stars": response[i].Stars__c});
                 }
 
                 component.set('v.data', dataarray);
