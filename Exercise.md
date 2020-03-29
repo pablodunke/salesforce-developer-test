@@ -1,4 +1,4 @@
-## TOPi - Salesforce Developer Test
+## Salesforce Developer Test
 
 ### Goal
 
