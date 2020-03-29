@@ -1,27 +1,42 @@
 <aura:component controller="RepositoryGridController" implements="flexipage:availableForAllPageTypes" access="global">
     
-    <aura:handler name='init' value='{!this}' action='{!c.loadRepository}'/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     
-    <aura:attribute name="repositories" type="List"/>
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
     
-    <div class="slds-card">
-        <div class="slds-card__body slds-card__body_inner slds-p-top_medium">
-            
-            LIST:
-   
-            <aura:iteration var="repository" items="{!v.repositories}">
-                <div class="slds-grid slds-wrap">
-                    <div class="slds-col slds-size_8-of-12">
-                        <span>{!repository.Name}</span>
+    <div class="slds-page-header">
+        <div class="slds-page-header__row">
+            <div class="slds-page-header__col-title">
+                <div class="slds-media">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-opportunity" title="opportunity">
+                            <lightning:icon iconName="custom:custom18" size="medium" alternativeText="Indicates approval"/>
+                            <span class="slds-assistive-text">opportunity</span>
+                        </span>
                     </div>
-                    <div class="slds-col slds-size_3-of-12">
-                        <span>{!repository.Stars__c}</span>
-                    </div>
-                    <div class="slds-col slds-size_3-of-12">
-                        <span>{!repository.Forks__c}</span>
+                    <div class="slds-media__body">
+                        <div class="slds-page-header__name">
+                            <div class="slds-page-header__name-title">
+                                <h1>
+                                    <span class="slds-page-header__title slds-truncate" title="Java - Most Starred Repositories">Java - Most Starred Repositories</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <p class="slds-page-header__name-meta">Java • Most Starred Repositories</p>
                     </div>
                 </div>
-            </aura:iteration>
+            </div>
+        </div>
+        
+        <br/>
+    
+        <div class="slds-card">
+            <div class="slds-card__body slds-card__body_inner slds-p-top_medium">
+                <div>
+                    <lightning:datatable keyField="id" data="{!v.data}" columns="{!v.columns}" hideCheckboxColumn="true"/>
+                </div>
+            </div>
         </div>
     </div>
     
