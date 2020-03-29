@@ -1,7 +1,7 @@
 @isTest
 private class RepositoryDAOTest 
 {
-    static testMethod void testService() 
+    static testMethod void testDAO() 
     {
         Repository__c repository = new Repository__c();
         repository.Name = 'Rep name';
