@@ -8,9 +8,13 @@
 
 * aura/repository_grid
 * classes/RepositoryHandler.cls
+* classes/RepositoryHandlerTest.cls
 * classes/RepositoryObject.cls
+* classes/RepositoryObjectTest.cls
 * classes/RepositorySchedule.cls
+* classes/RepositoryScheduleTest.cls
 * classes/RepositoryService.cls
+* classes/RepositoryServiceTest.cls
 * objects/Repository.object
 * triggers/Repository.trigger
 
